@@ -1,0 +1,37 @@
+10 medicos ok
+7 especialidades ok
+4 convenios ok
+6 enfermeiros ok
+5 medicamentos ok
+3 quartos ok
+valores para quartos duplos 
+valores para quartos enfermaria 
+valores para quartos apartamentos
+colocar id convenio nos pacientes ok
+10 consultas deve conter id especialidade id convenio id medico id pacientes ok
+5 consultas receituário com dois ou mais medicamentos ok 
+5 receitas ok
+medicamentos nas receitas  ok
+
+7 internações - 2 pacientes devem ter se internado mais de uma vez. As internações devem ter ocorrido entre 01/01/2017 e 31/12/2022.ok 
+
+
+
+6 enfermeiros - associe cada internação a ao menos dois enfermeiros 
+
+parte 1
+
+
+
+atividade 4 
+
+todos os dados e o valor médio das consultas do ano de 2020 realizadas sem convênio:
+atulizar consultas para 2020
+verificar consultas sem convênio
+valor médio 
+todos os dados 
+
+
+select * from curos order by nome "coloca em ordem alfabetica"
+select * from curos order by nome desc "coloca em ordem alfabetica de baixo para cima"
+
