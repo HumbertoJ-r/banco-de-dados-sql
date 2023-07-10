@@ -144,3 +144,7 @@ SELECT pacientes.*, count(internacao.id_pacientes) as num_internações
 from pacientes join internacao on internacao.id_pacientes=pacientes.idpacientes
 where((select count(internacao.id_pacientes) from internacao) > 1)
 group by pacientes.idpacientes;
+
+
+use super;
+select * from vendas
